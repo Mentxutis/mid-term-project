@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 * {
-  padding: 0;
+  padding: 50px;
+  background-color: #f2f4fc;
   font-family: "Roboto", sans-serif;
+  color: #292e47;
 }
 h1 {
   font-size: 60px;
@@ -11,46 +13,112 @@ h1 {
 h3 {
   font-size: 40px;
 }
-.container {
+header {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .navBar {
   display: flex;
   flex-direction: row;
-  height: 200px;
-  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+  width: 99%;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  flex-grow: var;
 }
-.bton {
+
+img .navBar {
+  width: 75px;
+  height: 30 px;
+}
+
+.menu {
+  border: #eb0e0e solid 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 295px;
+  height: 22px;
+  left: 544px;
+  top: 20px;
+}
+
+button {
   background-color: #072ac8;
   color: white;
+  height: 80px;
+  width: 300px;
+  justify-content: center;
+}
+button:hover {
+  background-color: navy;
 }
 
 .heroSection {
-  height: 2500px;
-  width: 98%;
+  border: red solid;
+  height: 1100px;
+  width: 99%;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+}
+inLine {
+  display: inline-block;
+}
+button .heroSection {
+  display: flex;
+  align-items: center;
 }
 .letterHero {
-  background-color: rgb(158, 159, 170);
-  height: 75%;
-  width: 40%;
+  border: 1px solid #072ac8;
+  height: 530px;
+  width: 422pz;
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
+  align-items: flex-start;
 }
+.inline {
+  border: 1px dotted black;
+}
+
+h4 .letterHero {
+  color: #6b708d;
+  size: 20px;
+}
+
 .heropicture {
+  border: 3px double red;
   background-image: url(/mid-term-project/project-assets/hero-section/hero-image.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+.creditCard,
+.deditoArriba {
+  width: 300px;
+  border-radius: 20%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+}
+
+.creditCard {
+  float: left;
+}
+
+.deditoArriba {
+  float: right;
 }
 .clientSection {
   display: flex;
   flex-direction: column;
   position: center;
-
+  align-content: space-around;
   height: 200px;
+  margin-left: 830px;
 }
 ul {
   display: flex;
@@ -62,12 +130,40 @@ ul {
   height: 150px;
   align-items: center;
 }
+
+img .ul {
+  display: flex;
+  align-content: space-between;
+  margin: 60%;
+}
+
+
 .projectSection {
+  border: 3px solid red;
   width: 100%;
   height: 1100px;
   align-content: center;
 }
+#box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.boxes{
+  width: 300px;
+  height: 120px;
+  border: 1px dotted black;
+}
+img .box{
+  position: absolute;
+width: 340px;
+height: 240px;
+left: 170px;
+top: 117px;
+}
 .testimonialSection {
+  border: 3px solid red;
   margin-inline: auto;
   width: 80%;
   height: 1200px;
@@ -81,9 +177,16 @@ img .testimonialSection {
   margin-left: 39%;
   height: 100%;
 }
+.serviceSection {
+  border: 3px solid red;
+}
 .ctaSection {
+  border: 3px solid red;
   background-color: #ffc600;
 
   width: 1320px;
   height: 500px;
+}
+footer {
+  border: 3px solid red;
 }
