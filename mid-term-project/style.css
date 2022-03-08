@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+  padding: 50px;
+  background-color: #f2f4fc;
+  font-family: "Roboto", sans-serif;
+  color: #292e47;
+}
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+/* css de index */
+/*navBar*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  width: 99%;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 800px;
+  left: 544px;
+}
+
+button {
+  background-color: #072ac8;
+  color: white;
+  height: 50px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: navy;
+}
+
+.heroSection {
+  margin-top: 50px;
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.letterHero {
+  height: 530px;
+  width: 422pz;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-right: 80px;
+}
+
+h4 .letterHero {
+  color: #6b708d;
+  size: 20px;
+}
+
+.inLine {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button .heroSection {
+  display: flex;
+  align-items: center;
+}
+
+.fotoprota {
+  width: 900px;
+  height: 900px;
+  position: relative;
+}
+
+.creditCard,
+.deditoArriba {
+  width: 450px;
+  border-radius: 20%;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  position: absolute;
+}
+
+.creditCard {
+  margin-top: -960px;
+}
+.deditoArriba {
+  margin-left: 524px;
+  margin-top: -310px;
+}
+.clientSection {
+  display: flex;
+  flex-direction: column;
+  position: center;
+  height: 130px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: space-between;
+  width: 50px;
+  height: 150px;
+  justify-content: space-between;
+  height: 100px;
+  width: 70%;
+  align-items: center;
+}
+
+.projectSection {
+  width: 98%;
+  height: 670px;
+  align-content: center;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 570px;
+}
+
+img .box {
+  position: absolute;
+  width: 640px;
+  height: 240px;
+  left: 170px;
+  top: 117px;
+}
+.project {
+  width: 340px;
+  height: 240px;
+  left: 170px;
+  top: 117px;
+}
+
+.testimonialSection {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  background-color: #6b708d;
+  justify-content: space-around;
+  height: 625px;
+  align-items: inherit;
+  margin-left: 10%;
+}
+.iconosCaras {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.enunciado {
+  align-items: center;
+}
+.caritas {
+  width: 140px;
+  height: 140px;
+}
+.enunciado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kristine {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.imgkris {
+  border-radius: 50%;
+  width: 50px;
+}
+img .testimonialSection {
+  display: flex;
+  flex-direction: row;
+  width: 32%;
+  margin-left: 39%;
+  height: 100%;
+}
+
+#services {
+  margin-top: 70px;
+  margin-left: 15%;
+  width: 1100px;
+  height: 497px;
+  left: 170px;
+}
+.groupOfCards {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 1100px;
+  height: 370px;
+  left: 170px;
+  top: 117px;
+}
+.card {
+  padding: 2%;
+  width: 300px;
+  height: 340px;
+  left: 170px;
+  top: 117px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.internCard {
+  width: 290px;
+  height: 300px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.icon {
+  padding: 2%;
+  border-radius: 50%;
+}
+
+.ctaSection {
+  width: 1320px;
+  height: 500px;
+  top: 3578px;
+  background-color: #ffc600;
+  margin-left: 12%;
+}
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+  height: 227px;
+  left: 110px;
+  top: 136px;
+  padding: 8%;
+}
+
+input {
+  width: 393px;
+  height: 50px;
+  left: 245px;
+  top: 147px;
+}
+.form{
+  height: 50px  ;
+  width: 630px;
+  
+} 
+
+
+.footer {
+  border: 3px solid red;
+}
