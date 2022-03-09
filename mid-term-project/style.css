@@ -2,44 +2,42 @@
 
 body {
   padding: 50px;
-  background-color: #f2f4fc;
+  background-color:  #F4F6FC;
   font-family: "Roboto", sans-serif;
   color: #292e47;
+  width: 60%;
+  justify-content: center;
 }
 h1 {
   font-size: 60px;
 }
-
 h3 {
   font-size: 40px;
 }
-
 /* css de index */
 /*navBar*/
-
-header {
+header {  
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 #head {
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-  width: 99%;
+  width: 60%;
   align-items: center;
   flex-wrap: nowrap;
   width: 800px;
   left: 544px;
 }
-
 button {
   background-color: #072ac8;
   color: white;
@@ -51,30 +49,27 @@ button {
 button:hover {
   background-color: navy;
 }
-
 .heroSection {
+  border: 1px dotted red;
   margin-top: 50px;
   height: 900px;
-  width: 100%;
+  width: 98%;
   display: flex;
   flex-direction: row;
   justify-content: right;
 }
-
 .letterHero {
   height: 530px;
-  width: 422pz;
+  width: 422px;
   display: flex;
   flex-direction: column;
   margin-top: 80px;
   margin-right: 80px;
 }
-
 h4 .letterHero {
   color: #6b708d;
   size: 20px;
 }
-
 .inLine {
   display: flex;
   justify-content: space-around;
@@ -84,13 +79,11 @@ button .heroSection {
   display: flex;
   align-items: center;
 }
-
 .fotoprota {
   width: 900px;
   height: 900px;
   position: relative;
 }
-
 .creditCard,
 .deditoArriba {
   width: 450px;
@@ -99,7 +92,6 @@ button .heroSection {
   display: flex;
   position: absolute;
 }
-
 .creditCard {
   margin-top: -960px;
 }
@@ -114,7 +106,6 @@ button .heroSection {
   height: 130px;
   align-items: center;
 }
-
 ul {
   display: flex;
   align-items: center;
@@ -127,7 +118,6 @@ ul {
   width: 70%;
   align-items: center;
 }
-
 .projectSection {
   width: 98%;
   height: 670px;
@@ -145,8 +135,8 @@ ul {
   justify-content: center;
   width: 450px;
   height: 570px;
+  
 }
-
 img .box {
   position: absolute;
   width: 640px;
@@ -160,18 +150,29 @@ img .box {
   left: 170px;
   top: 117px;
 }
-
 .testimonialSection {
+  border: 6px solid red;
+  background-color: #292e47;
+  display: flex;
+  justify-content: center;
+}
+.containerFaces{
+  border: 6px double rgb(136, 255, 0);
   display: flex;
   flex-direction: column;
-  width: 80%;
-  background-color: #6b708d;
+  width: 50%;
   justify-content: space-around;
   height: 625px;
   align-items: inherit;
-  margin-left: 10%;
+}
+.enunciado h3{
+  color: #f2f4fc;
+}
+.enunciado h4{
+  color: #ffc600;
 }
 .iconosCaras {
+  border: 6px double rgb(136, 255, 0);
   display: flex;
   flex-direction: row;
   align-content: space-between;
@@ -195,11 +196,24 @@ img .box {
   position: relative;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .imgkris {
   border-radius: 50%;
   width: 50px;
+  height: 50px;
+  margin-top: 10%;
+}
+.kristine h5{
+  color: #a2d6f9;
+}
+.kristine h6{
+  color: #d1edff;
+}
+.containerKris{
+  border: 1px dotted beige;
+  display: flex;
+  flex-direction: row;
 }
 img .testimonialSection {
   display: flex;
@@ -208,7 +222,6 @@ img .testimonialSection {
   margin-left: 39%;
   height: 100%;
 }
-
 #services {
   margin-top: 70px;
   margin-left: 15%;
@@ -245,18 +258,19 @@ img .testimonialSection {
   justify-content: space-between;
   align-content: center;
 }
-
 .icon {
   padding: 2%;
   border-radius: 50%;
 }
-
 .ctaSection {
   width: 1320px;
   height: 500px;
   top: 3578px;
   background-color: #ffc600;
   margin-left: 12%;
+}
+.ctaSection input{
+  background-color: #F4F6FC;
 }
 .cta {
   display: flex;
@@ -269,20 +283,134 @@ img .testimonialSection {
   top: 136px;
   padding: 8%;
 }
-
 input {
   width: 393px;
   height: 50px;
   left: 245px;
   top: 147px;
-}
-.form{
-  height: 50px  ;
-  width: 630px;
   
-} 
+  
+}
+.form {
+  height: 50px;
+  width: 630px;
+}
+footer {
+  width: 100%;
+  height: 242px;
+  display:  flex;
+  justify-content: center; 
+}
+.footerBox{ 
+  width: 1100px;
+  height: 112px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.adressBox{ 
+  width: 260 px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between ;
+}
+.menuBox{ 
+  width: 435px;
+  height: 112px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.illinois{
+  width: 260px;
+  height: 52px;
+}
+.footerLinks{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* css contact*/
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactUs{
+  
+}
+.fullForm{
+  display: flex;
+  flex-direction: column;
+}
+.fullForm button{
+  width: 100%;
+}
+.name{
+  width: 1100px;
+  height: 110px;
+}
+.meilPhone{
+  
+}
+.meil{
+  
+}
+.phone{
+  
+}
+.message{
+ 
+}
+.up{
+   color: #6b708d;
+}
+.down{
+ 
+  }
+input {
+  background: rgba(107, 112, 141, 0.1);
+}
+#message{
+  background: rgba(107, 112, 141, 0.1);
+}
 
+/*css projectSmply*/
 
-.footer {
-  border: 3px solid red;
+.total{
+  border: 3px, solid red;
+}
+.total h1{
+  color: #292E47;
+}
+.uiApp{
+  color:  #6B708D;
+  font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+}
+.completed{
+  color: #292E47;
+  font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+}
+.explain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project1 img{
+ 
+  width: 1100px;
+  height: 444px;
+}
+.lorem{
+  width: 1100px;
+  height: 420px;
+  color: #6B708D;
+  
 }

@@ -4,39 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" />
+    
   </head>
+
   <body>
-    <nav class="navBar">
+    <header id="head">
       <img
+        class="logo"
         src="/mid-term-project/project-assets/logos/circle.svg"
         alt="Logotipo de Circle"
       />
-
-      <ul class="menu">
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Services</li>
-      </ul>
+      <nav class="menu">
+        <a href="index.html" target="_blank" rel="noopener nooreferer">Home</a>
+        <a href="projects.html" target="_blank" rel="noopener nooreferer"
+          >Projects
+        </a>
+        <a href="#services">Services</a>
+      </nav>
 
       <button class="bton">Contact Us</button>
-    </nav>
+    </header>
 
-    <div>
-      <h1>Contact Us</h1>
+    <div class="contact">
+      <div class="contacUS">
+        <h1>Contact Us</h1>
+      </div>
 
-      <form action="/some-url" method="get">
-        <label for="name">Full Name * :</label>
-        <input type="text" placeholder="Enter your full name" />
-        <label for="email">E-mail:</label>
-        <input type="email" placeholder="Enter your e-mail adress" />
-        <label for="phone">Phone:</label>
-        <input type="phone" placeholder="Enter your phone number" />
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="comment" rows="20" cols="65"></textarea>
-        <button class="bton">Summit</button>
-      </form>
+      <div class="fullForm">
+        <form action="mailto:menrodriguez@hotmail.com" method="post">
+
+          <div class="Name">
+            <div class="up">
+              <label for="name">Full Name * :</label>
+            </div>
+
+            <div class="down">
+              <input type="text" placeholder="Enter your full name" />
+             </div>
+
+          </div>
+
+          <div class="meilPhone">
+            <div class="email">
+              
+              <div class="Name">
+                <div class="up">
+                  <label for="email">E-mail:</label>
+                </div>
+
+                <div class="down">
+                  <input type="email" placeholder="Enter your e-mail adress" />
+                </div>
+              </div>
+
+              <div class="phone">
+                <div class="up">
+                  <label for="phone">Phone:</label>
+                </div>
+                <div class="down">
+                  <input type="phone" placeholder="Enter your phone   number" />
+                </div>
+            </div>
+          </div>
+
+          <div class="message">
+            <div class="up">
+            <label for="message">Message:</label>
+          </div>
+            <div class="down">
+            <textarea
+              id="message"
+              name="message"
+              rows="20"
+              cols="65"
+            ></textarea>
+          </div>
+          </div>
+
+          <button class="bton">Summit</button>
+        </form>
+      </div>
     </div>
-    <footer></footer>
+
+    <footer class="footer">
+      <div class="footerBox">
+        <div class="adressBox">
+          <div class="logo">
+            <img
+              src="/mid-term-project/project-assets/logos/circle.svg"
+              alt="Logotipo de Circle"
+            />
+          </div>
+          <div class="illinois">
+            <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+          </div>
+        </div>
+
+        <div class="menuBox">
+          <div class="footerLinks">
+            <a href="#">Team</a>
+            <a href="#">Press</a>
+          </div>
+
+          <div class="footerLinks">
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+          </div>
+
+          <div class="footerLinks">
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
