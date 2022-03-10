@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 body {
-  padding: 50px;
-  background-color:  #F4F6FC;
+  padding: 2%;
+  background-color: #f4f6fc;
   font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
   color: #292e47;
   width: 60%;
   justify-content: center;
+  margin-left: 15%;
 }
 h1 {
   font-size: 60px;
@@ -14,23 +17,34 @@ h1 {
 h3 {
   font-size: 40px;
 }
+h4 {
+  font-size: 30px;
+}
+p {
+  font-size: 17px;
+}
+
 /* css de index */
 /*navBar*/
-header {  
+
+#header {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+#head {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#head {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.logo {
+  width: 90px;
 }
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100px;
   width: 60%;
   align-items: center;
@@ -42,7 +56,7 @@ button {
   background-color: #072ac8;
   color: white;
   height: 50px;
-  width: 200px;
+  width: 150px;
   justify-content: center;
   align-items: center;
 }
@@ -50,60 +64,60 @@ button:hover {
   background-color: navy;
 }
 .heroSection {
-  border: 1px dotted red;
   margin-top: 50px;
-  height: 900px;
+  height: 500px;
   width: 98%;
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-between;
 }
 .letterHero {
-  height: 530px;
-  width: 422px;
+  height: 550px;
+  width: 45%;
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
-  margin-right: 80px;
+
+  align-content: center;
+  align-items: center;
 }
 h4 .letterHero {
   color: #6b708d;
-  size: 20px;
 }
 .inLine {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 button .heroSection {
   display: flex;
   align-items: center;
 }
 .fotoprota {
-  width: 900px;
-  height: 900px;
+  width: 400px;
+  height: 400px;
   position: relative;
 }
 .creditCard,
 .deditoArriba {
-  width: 450px;
+  width: 190px;
   border-radius: 20%;
   background-color: rgba(0, 0, 0, 0);
   display: flex;
   position: absolute;
 }
 .creditCard {
-  margin-top: -960px;
+  margin-top: -430px;
 }
 .deditoArriba {
-  margin-left: 524px;
-  margin-top: -310px;
+  margin-left: 216px;
+  margin-top: -133px;
 }
 .clientSection {
   display: flex;
   flex-direction: column;
   position: center;
-  height: 130px;
+  height: 40px;
   align-items: center;
 }
 ul {
@@ -112,15 +126,16 @@ ul {
   flex-direction: row;
   align-content: space-between;
   width: 50px;
-  height: 150px;
-  justify-content: space-between;
+  height: 40px;
+  justify-content: space-around;
   height: 100px;
-  width: 70%;
+  width: 100%;
   align-items: center;
 }
 .projectSection {
+  margin-top: 10%;
   width: 98%;
-  height: 670px;
+  height: 550px;
   align-content: center;
 }
 #container {
@@ -128,15 +143,20 @@ ul {
   flex-direction: row;
   justify-content: space-around;
 }
+
 .box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 450px;
-  height: 570px;
-  
+
+  width: 180px;
+  height: 333px;
+  background-color: white;
 }
+.box p {
+  font-size: 13px;
+}
+
 img .box {
   position: absolute;
   width: 640px;
@@ -145,47 +165,47 @@ img .box {
   top: 117px;
 }
 .project {
-  width: 340px;
-  height: 240px;
+  width: 180px;
+  height: 140px;
   left: 170px;
   top: 117px;
 }
 .testimonialSection {
-  border: 6px solid red;
+  width: 100%;
+
   background-color: #292e47;
   display: flex;
   justify-content: center;
 }
-.containerFaces{
-  border: 6px double rgb(136, 255, 0);
+.containerFaces {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   justify-content: space-around;
   height: 625px;
   align-items: inherit;
 }
-.enunciado h3{
+.enunciado h4 {
   color: #f2f4fc;
 }
-.enunciado h4{
+.enunciado h5 {
   color: #ffc600;
+  width: 60%;
 }
 .iconosCaras {
-  border: 6px double rgb(136, 255, 0);
   display: flex;
   flex-direction: row;
   align-content: space-between;
   justify-content: space-between;
+  width: 100%;
 }
-.enunciado {
-  align-items: center;
-}
+
 .caritas {
   width: 140px;
   height: 140px;
 }
 .enunciado {
+  align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -204,14 +224,13 @@ img .box {
   height: 50px;
   margin-top: 10%;
 }
-.kristine h5{
+.kristine h5 {
   color: #a2d6f9;
 }
-.kristine h6{
+.kristine h6 {
   color: #d1edff;
 }
-.containerKris{
-  border: 1px dotted beige;
+.containerKris {
   display: flex;
   flex-direction: row;
 }
@@ -223,9 +242,7 @@ img .testimonialSection {
   height: 100%;
 }
 #services {
-  margin-top: 70px;
-  margin-left: 15%;
-  width: 1100px;
+  width: 100%;
   height: 497px;
   left: 170px;
 }
@@ -235,13 +252,12 @@ img .testimonialSection {
   align-content: center;
   align-items: center;
   justify-content: space-around;
-  width: 1100px;
+  width: 100%;
   height: 370px;
   left: 170px;
   top: 117px;
 }
 .card {
-  padding: 2%;
   width: 300px;
   height: 340px;
   left: 170px;
@@ -263,154 +279,165 @@ img .testimonialSection {
   border-radius: 50%;
 }
 .ctaSection {
-  width: 1320px;
+  width: 100%;
   height: 500px;
   top: 3578px;
   background-color: #ffc600;
-  margin-left: 12%;
 }
-.ctaSection input{
-  background-color: #F4F6FC;
+.ctaSection p {
+  font: 1em sans-serif;
+}
+.ctaSection input {
+  background-color: #f4f6fc;
 }
 .cta {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1100px;
+  width: 100%;
   height: 227px;
   left: 110px;
   top: 136px;
-  padding: 8%;
+  padding-top: 5%;
 }
 input {
   width: 393px;
-  height: 50px;
-  left: 245px;
+  height: 45px;
+  left: 350px;
   top: 147px;
-  
-  
+}
+input::placeholder {
+  color: blue;
+  font-size: 1em;
+}
+label {
+  width: 60%;
 }
 .form {
+  display: flex;
   height: 50px;
-  width: 630px;
+  width: 500px;
+  justify-content: space-between;
 }
 footer {
+  margin-top: 8%;
   width: 100%;
   height: 242px;
-  display:  flex;
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
-.footerBox{ 
+.footerBox {
   width: 1100px;
   height: 112px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
 }
-.adressBox{ 
+
+.adressBox {
   width: 260 px;
   height: 112px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
-.menuBox{ 
+.menuBox {
   width: 435px;
   height: 112px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.illinois{
+.illinois {
   width: 260px;
   height: 52px;
 }
-.footerLinks{
+.footerLinks {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 /* css contact*/
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.contactUs{
-  
-}
-.fullForm{
+.fullForm {
   display: flex;
   flex-direction: column;
 }
-.fullForm button{
+.fullForm button {
   width: 100%;
 }
-.name{
+.name {
   width: 1100px;
   height: 110px;
 }
-.meilPhone{
-  
+.up {
+  color: #6b708d;
 }
-.meil{
-  
+.down {
+  width: 100%;
 }
-.phone{
-  
-}
-.message{
- 
-}
-.up{
-   color: #6b708d;
-}
-.down{
- 
-  }
 input {
   background: rgba(107, 112, 141, 0.1);
+  width: 100%;
 }
-#message{
+#message {
   background: rgba(107, 112, 141, 0.1);
+  width: 100%;
 }
 
 /*css projectSmply*/
-
 .total{
-  border: 3px, solid red;
+  
 }
-.total h1{
-  color: #292E47;
+.total h1 {
+ 
+  color: #292e47;
 }
-.uiApp{
-  color:  #6B708D;
-  font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-}
-.completed{
-  color: #292E47;
-  font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
+.ppal{
+  
 }
 .explain{
+  
+  display: flex;
+  flex-direction: row;
+}
+.littleexplain {
+  
+  color: #6b708d;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.completed {
+  color: #292e47;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.imageLorem {
+  padding: 3%;
+}
+.imagen{
+  width: 100%;
+  height: auto;
+}
+.explain {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.project1 img{
- 
-  width: 1100px;
-  height: 444px;
-}
-.lorem{
-  width: 1100px;
-  height: 420px;
-  color: #6B708D;
+.project img {
   
+}
+.lorem {
+  padding: 3%;
+ 
+  height: 300px;
+  color: #6b708d;
 }
